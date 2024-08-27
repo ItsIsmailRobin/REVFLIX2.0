@@ -111,15 +111,12 @@ const PlayButton = ({
           )}
         </button>
       </div>
-
-<div className="">
-   <p> </p>
-            <div className="flex justify-center items-center">
- <p className="text-[#6a0bf9] text-s" >
-          <b>REVFLIX</b> Developed By <b>Revenger</b>
-        </p> </div>
     )
   );
 };
 
+  <p> </p>
+ <p className="text-[#6a0bf9] text-s" >
+         <center> <b>REVFLIX</b> Developed By <b>Revenger</b></center>center>
+        </p> </div>
 export default PlayButton;
