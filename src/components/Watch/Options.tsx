@@ -37,7 +37,7 @@ const Options = () => {
       <p className="text-white text-xs font-medium flex  items-center gap-1">
         <IoIosInformationCircleOutline className="text-[#F9CC0B] text-sm" />
         {api === "8stream"
-          ? "RevFlix Server 1 - Multi Lang"
+          ? "RevFlix Server 1 - Multi Lang & Fastest"
           : "RevFlix Server 2  - Subtitles"}
       </p>
     </div>
