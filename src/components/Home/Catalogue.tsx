@@ -48,14 +48,7 @@ const Catalogue = ({
         })}
       </Slider>
 
-
-import React from "react";
-import imageToAdd from "https://itsismailrobin.github.io/fs/footer.png";
-function YourComponent() {
-   return <img src={imageToAdd} alt="Image" />;
-}
-export default YourComponent;
-<center><p>Rev by REVFLIX</p></center>
+<center><p>REVFLIX Developed By Revenger</p></center><br></br>
       {/* Discover TV */}
       {/* <Slider title="Discover TV">
         {data.DiscoverTv?.results?.map((tv: any) => {
