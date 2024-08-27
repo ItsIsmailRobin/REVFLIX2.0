@@ -47,7 +47,7 @@ const Catalogue = ({
           );
         })}
       </Slider>
-
+<p>Rev</p>
       {/* Discover TV */}
       {/* <Slider title="Discover TV">
         {data.DiscoverTv?.results?.map((tv: any) => {
