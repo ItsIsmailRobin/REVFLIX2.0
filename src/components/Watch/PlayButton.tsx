@@ -93,7 +93,13 @@ const PlayButton = ({
             }
           }}
         >
-          <p className="text-white text-4xl font-extrabold">Play</p>
+          <p> </p>
+            <div className="flex justify-center items-center">
+ <p className="text-[#6a0bf9] text-xl" >
+          <b>REVFLIX</b> Developed By <b>Revenger</b>
+        </p> </div>
+
+<p className="text-white text-4xl font-extrabold">Play</p>
           {loading ? (
             <div className="flex justify-center items-center h-[75px] w-[75px]">
               <div className="mediaLoader"></div>
@@ -109,11 +115,7 @@ const PlayButton = ({
             />
           )}
         </button>
-<p> </p>
-            <div className="flex justify-center items-center">
- <p className="text-[#6a0bf9] text-xl" >
-          <b>REVFLIX</b> Developed By <b>Revenger</b>
-        </p> </div>
+
       </div>
     )
   );
