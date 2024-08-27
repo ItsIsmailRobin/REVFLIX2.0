@@ -116,7 +116,7 @@ const Stream = ({
               container: "#player-container",
               url: url,
               setting: true,
-              theme: "#fcba03",
+              theme: "#7b00ff",
               controls: [
                 {
                   name: "Lang",
