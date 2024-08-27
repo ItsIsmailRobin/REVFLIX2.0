@@ -21,7 +21,7 @@ const Options = () => {
           >
             <option
               className="px-1 bg-gray-900 text-center  hover:bg-gray-600 rounded-lg"
-              value="8streaxm"
+              value="8stream"
             >
               8 Stream
             </option>
@@ -37,8 +37,8 @@ const Options = () => {
       <p className="text-white text-xs font-medium flex  items-center gap-1">
         <IoIosInformationCircleOutline className="text-[#F9CC0B] text-sm" />
         {api === "8stream"
-          ? "8stream Provide Multi Lang"
-          : "Consumet Provide Eng and Subs"}
+          ? "RevFlix Server 1 - Multi Lang"
+          : "RevFlix Server 2  - Subtitles"}
       </p>
     </div>
   );
