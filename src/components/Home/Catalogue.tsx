@@ -47,8 +47,10 @@ const Catalogue = ({
           );
         })}
       </Slider>
-<center><p style="color:red;">REVFLIX</p></center>
+
+<center><p>REVFLIX</p></center>
 <center><p>Developed By Revenger</p></center><br>
+
       {/* Discover TV */}
       {/* <Slider title="Discover TV">
         {data.DiscoverTv?.results?.map((tv: any) => {
