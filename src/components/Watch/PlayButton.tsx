@@ -82,7 +82,7 @@ const PlayButton = ({
       <div className="">
         <button
           className="flex justify-center items-center gap-3 cursor-pointer group bg-white rounded-lg 
-        px-3 py-0 bg-opacity-20 duration-200 backdrop-blur-sm max-sm:w-[220px] max-sm:justify-between"
+        px-3 py-0 bg-opacity-20 duration-200 backdrop-blur-sm max-sm:w-[210px] max-sm:justify-between"
           disabled={loading}
           onClick={() => {
             if (type === "movie") {
@@ -108,7 +108,7 @@ const PlayButton = ({
             />
           )}
         </button>
- <p className="text-[#6a0bf9] text-xl" />
+ <p className="text-[#6a0bf9] text-xl" >
           <b>REVFLIX</b> Developed By <b>Revenger</b>
         </p>
 
