@@ -71,7 +71,7 @@ const PlayButton = ({
           <p className="text-white text-4xl font-extrabold">Not Available</p>
         </div>
         <p className="text-white text-xs font-medium flex justify-center items-center gap-1">
-          <IoIosInformationCircleOutline className="text-[#920bf9] text-xl" />
+          <IoIosInformationCircleOutline className="text-[#F9CC0B] text-xl" />
           Try another provider or try again later
         </p>
       </div>
@@ -108,6 +108,8 @@ const PlayButton = ({
             />
           )}
         </button>
+<center><p><b>REVFLIX</b> Developed By <b>Revenger</b></p></center>
+<p> </p>
       </div>
     )
   );
