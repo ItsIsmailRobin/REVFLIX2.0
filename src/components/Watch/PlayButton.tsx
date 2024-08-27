@@ -111,7 +111,6 @@ const PlayButton = ({
           )}
         </button>
   <p className="text-[#efe8fa] text-xs" >
-<P> </P>
           <b>REVFLIX</b> Developed By <b>Revenger</b>
         </p> 
       </div>
