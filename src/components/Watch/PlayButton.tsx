@@ -83,7 +83,7 @@ const PlayButton = ({
       <div className="">
         <button
           className="flex justify-center items-center gap-3 cursor-pointer group bg-white rounded-lg 
-        px-3 py-0 bg-opacity-20 duration-200 backdrop-blur-sm max-sm:w-[200px] max-sm"
+        px-3 py-0 bg-opacity-20 duration-200 backdrop-blur-sm max-sm:w-[150px] max-sm"
           disabled={loading}
           onClick={() => {
             if (type === "movie") {
