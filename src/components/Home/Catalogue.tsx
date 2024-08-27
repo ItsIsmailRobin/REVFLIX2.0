@@ -47,6 +47,7 @@ const Catalogue = ({
           );
         })}
       </Slider>
+<center><img src="https://itsismailrobin.github.io/fs/footer.png" alt="RevFlix" style="width:420px;height:50px;"></center>
 <center><p>Rev by REVFLIX</p></center>
       {/* Discover TV */}
       {/* <Slider title="Discover TV">
