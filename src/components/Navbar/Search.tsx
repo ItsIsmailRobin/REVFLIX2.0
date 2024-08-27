@@ -29,7 +29,7 @@ const Search = () => {
           onChange={(e) => setQuery(e.target.value)}
           onBlur={() => setTimeout(() => setQuery(""), 500)}
           className="bg-[#02040A] w-[100px] max-sm:focus:w-[80vw] lg:focus:w-[300px] h-10 px-3 py-2  text-white placeholder-white/50 focus:outline-none
-          focus:border-yellow-500 focus:border-b
+          focus:border-purple-500 focus:border-b
         transition-all duration-200"
         />
         <IoSearchSharp className="text-white max-sm:text-xl text-3xl" />
