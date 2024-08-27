@@ -94,7 +94,7 @@ const PlayButton = ({
         >
           <p className="text-white text-4xl font-extrabold">Play</p>
           {loading ? (
-            <div className="flex justify-center items-center h-[100px] w-[100px]">
+            <div className="flex justify-center items-center h-[75px] w-[75px]">
               <div className="mediaLoader"></div>
             </div>
           ) : (
