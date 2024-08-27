@@ -28,7 +28,7 @@ const Search = () => {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           onBlur={() => setTimeout(() => setQuery(""), 500)}
-          className="bg-[#111112] w-[100px] max-sm:focus:w-[80vw] lg:focus:w-[300px] h-10 px-3 py-2  text-white placeholder-white/50 focus:outline-none
+          className="bg-[#080808] w-[100px] max-sm:focus:w-[80vw] lg:focus:w-[300px] h-10 px-3 py-2  text-white placeholder-white/50 focus:outline-none
           focus:border-purple-500 focus:border-b
         transition-all duration-200"
         />
