@@ -5,7 +5,7 @@ import Search from "./Search";
 
 const Nav = () => {
   return (
-    <div className="bg-[#0d0d0e] w-full h-18 flex justify-between items-center px-10 py-2 pt-3 z-50">
+    <div className="bg-[#1d1823] w-full h-15 flex justify-between items-center px-10 py-2 pt-3 z-50">
       <Link href="/">
         <Image
           unoptimized={true}
