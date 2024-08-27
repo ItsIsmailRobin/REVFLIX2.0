@@ -60,5 +60,20 @@ export async function generateMetadata(): Promise<Metadata> {
     description: "RevFlix - Watch Movies Online For Free",
     keywords: data.tendingMovies?.results?.map((item: any) => item?.title),
     category: "Entertainment",
+
+import React from 'react';
+import MetaTags from 'react-meta-tags';
+
+class Component1 extends React.Component {
+  render() {
+    return (
+        <div class="wrapper">
+          <MetaTags>
+            <meta id="og-image" property="og:image" content="meta.jpg" />
+          </MetaTags>
+        </div>
+      )
+  }
+}
   };
 }
