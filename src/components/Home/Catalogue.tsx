@@ -47,7 +47,14 @@ const Catalogue = ({
           );
         })}
       </Slider>
-<center><img src="https://itsismailrobin.github.io/fs/footer.png" alt="RevFlix" style="width:420px;height:50px;"></center>
+
+
+import React from "react";
+import imageToAdd from "https://itsismailrobin.github.io/fs/footer.png";
+function YourComponent() {
+   return <img src={imageToAdd} alt="Image" />;
+}
+export default YourComponent;
 <center><p>Rev by REVFLIX</p></center>
       {/* Discover TV */}
       {/* <Slider title="Discover TV">
