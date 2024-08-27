@@ -68,10 +68,10 @@ const PlayButton = ({
     return (
       <div className="flex flex-col justify-center items-center gap-4">
         <div className="flex justify-center items-center gap-3 cursor-pointer group bg-white rounded-lg px-3 bg-opacity-20 hover:scale-105 duration-200 backdrop-blur-sm py-4">
-          <p className="text-white text-4xl font-extrabold">No Available</p>
+          <p className="text-white text-4xl font-extrabold">Not Available</p>
         </div>
         <p className="text-white text-xs font-medium flex justify-center items-center gap-1">
-          <IoIosInformationCircleOutline className="text-[#F9CC0B] text-xl" />
+          <IoIosInformationCircleOutline className="text-[#920bf9] text-xl" />
           Try another provider or try again later
         </p>
       </div>
