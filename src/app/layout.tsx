@@ -32,7 +32,7 @@ export default function RootLayout({
       <body className={poppins.className}>
         <ReduxProvider>
           <NextTopLoader
-            color="#F9CC0B"
+            color="#b20bf9"
             initialPosition={0.08}
             crawlSpeed={200}
             height={3}
