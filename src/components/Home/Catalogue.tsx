@@ -48,8 +48,7 @@ const Catalogue = ({
         })}
       </Slider>
 
-<center><p>REVFLIX</p></center>
-<center><p>Developed By Revenger</p></center>
+<center><p><b>REVFLIX</b> Developed By Revenger</p></center>
 
       {/* Discover TV */}
       {/* <Slider title="Discover TV">
