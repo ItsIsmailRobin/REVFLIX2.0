@@ -112,7 +112,7 @@ const PlayButton = ({
         </button>
 <p> </p>
  <p className="text-[#efe8fa] text-s" >
-         <center> <b>REVFLIX</b> Developed By <b>Revenger</b></center>center>
+         <center> <b>REVFLIX</b> Developed By <b>Revenger</b></center>
         </p> </div>
       </div>
     )
