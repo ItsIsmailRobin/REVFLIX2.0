@@ -82,7 +82,7 @@ const PlayButton = ({
       <div className="">
         <button
           className="flex justify-center items-center gap-3 cursor-pointer group bg-white rounded-lg 
-        px-3 py-0 bg-opacity-20 duration-200 backdrop-blur-sm max-sm:w-[350px] max-sm:justify-between"
+        px-3 py-0 bg-opacity-20 duration-200 backdrop-blur-sm max-sm:w-[220px] max-sm:justify-between"
           disabled={loading}
           onClick={() => {
             if (type === "movie") {
@@ -94,21 +94,25 @@ const PlayButton = ({
         >
           <p className="text-white text-4xl font-extrabold">Play</p>
           {loading ? (
-            <div className="flex justify-center items-center h-[75px] w-[75px]">
+            <div className="flex justify-center items-center h-[100px] w-[100px]">
               <div className="mediaLoader"></div>
             </div>
           ) : (
             <Image
               unoptimized={true}
               src={play}
-              width={100}
-              height={100}
+              width={75}
+              height={75}
               alt="play"
               className="group-hover:scale-110 group-active:scale-100 transition-all duration-300"
             />
           )}
         </button>
-<center><p><b>REVFLIX</b> Developed By <b>Revenger</b></p></center>
+ <p className="text-white text-xs font-medium flex justify-center items-center gap-1">
+          <IoIosInformationCircleOutline className="text-[#6a0bf9] text-xl" />
+          <b>REVFLIX</b> Developed By <b>Revenger</b>
+        </p>
+
 <p> </p>
       </div>
     )
