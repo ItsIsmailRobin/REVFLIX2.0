@@ -47,8 +47,8 @@ const Catalogue = ({
           );
         })}
       </Slider>
-<html> <center><img src="https://itsismailrobin.github.io/fs/footer.png" alt="RevFlix" style="width:420px;height:50px;"></center> </html>
-<center><p>REVFLIX Developed By Revenger</p></center><br></br>
+<center><p style="color:red;">REVFLIX</p></center>
+<center><p>REVFLIX Developed By Revenger</p></center><br>
       {/* Discover TV */}
       {/* <Slider title="Discover TV">
         {data.DiscoverTv?.results?.map((tv: any) => {
