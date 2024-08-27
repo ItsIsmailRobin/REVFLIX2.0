@@ -99,12 +99,12 @@ select {
 /* main page loader */
 
 .pageLoader {
-  font-size: 48px;
+  font-size: 52px;
   font-weight: 600;
   display: inline-block;
   letter-spacing: 2px;
   font-family: Arial, Helvetica, sans-serif;
-  color: #cdaf29;
+  color: #920bf9;
   box-sizing: border-box;
   animation: spotlight 2s linear infinite alternate;
 }
