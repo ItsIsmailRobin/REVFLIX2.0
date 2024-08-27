@@ -11,7 +11,7 @@ const Options = () => {
     <div className="flex flex-col gap-2">
       <div className="bg-[#0f0f0f] rounded-lg w-fit px-3 py-2">
         <div className="flex justify-center items-center gap-1">
-          <label className="text-white text-base font-medium">Provider </label>
+          <label className="text-white text-base font-medium">Provider</label>
           <select
             className="bg-white/20 backdrop-blur-lg rounded-lg px-2 py-1 text-sm text-white font-medium styled-select outline-none"
             value={api}
@@ -21,13 +21,13 @@ const Options = () => {
           >
             <option
               className="px-1 bg-gray-900 text-center  hover:bg-gray-600 rounded-lg"
-              value="8stream"
+              value="RevFlix"
             >
               8 Stream
             </option>
             <option
               className="px-1 bg-gray-900 text-center  hover:bg-gray-600 rounded-lg "
-              value="consumet"
+              value="RevFlix2"
             >
               Consumet
             </option>
@@ -36,7 +36,7 @@ const Options = () => {
       </div>
       <p className="text-white text-xs font-medium flex  items-center gap-1">
         <IoIosInformationCircleOutline className="text-[#F9CC0B] text-sm" />
-        {api === "RevFlix"
+        {api === "8stream"
           ? "RevFlix Provide Multi Lang"
           : "RevFlix2 Provide Eng & Subs"}
       </p>
