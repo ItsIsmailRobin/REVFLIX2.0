@@ -62,7 +62,7 @@ const PlayButton = ({
       setError(false);
       getConsumet();
     }
-  }, [provider ]);
+  }, [provider]);
 
   if (error) {
     return (
@@ -74,12 +74,12 @@ const PlayButton = ({
           <IoIosInformationCircleOutline className="text-[#F9CC0B] text-xl" />
           Try another provider or try again later
         </p>
-      </div>
  <p className="text-[#6a0bf9] text-xl" >
           <b>REVFLIX</b> Developed By <b>Revenger</b>
         </p>
-
 <p> </p>
+      </div>
+
     );
   }
   return (
