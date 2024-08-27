@@ -83,7 +83,7 @@ const PlayButton = ({
       <div className="">
         <button
           className="flex justify-center items-center gap-3 cursor-pointer group bg-white rounded-lg 
-        px-3 py-0 bg-opacity-20 duration-200 backdrop-blur-sm max-sm:w-[210px] max-sm:justify-between"
+        px-3 py-0 bg-opacity-20 duration-200 backdrop-blur-sm max-sm:w-[220px] max-sm:justify-between"
           disabled={loading}
           onClick={() => {
             if (type === "movie") {
@@ -96,7 +96,7 @@ const PlayButton = ({
        
 <p className="text-white text-4xl font-extrabold">Play</p>
           {loading ? (
-            <div className="flex justify-center items-center h-[75px] w-[75px]">
+            <div className="flex items-center h-[75px] w-[75px]">
               <div className="mediaLoader"></div>
             </div>
           ) : (
