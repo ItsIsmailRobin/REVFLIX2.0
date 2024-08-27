@@ -98,7 +98,7 @@ const Stream = ({
         });
       }
     }
-    if (provider === "8stream") {
+    if (provider === "RevFlix") {
       get8Stream();
     } else {
       getConsumet();
