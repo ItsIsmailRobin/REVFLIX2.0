@@ -113,7 +113,7 @@ const PlayButton = ({
             <div className="flex justify-center items-center">
  <p className="text-[#6a0bf9] text-xl" >
           <b>REVFLIX</b> Developed By <b>Revenger</b>
-        </p>
+        </p> </div>
       </div>
     )
   );
