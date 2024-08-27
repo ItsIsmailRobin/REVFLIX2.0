@@ -1,12 +1,12 @@
 {
-  "theme_color": "#F9CC0B",
+  "theme_color": "#a20bf9",
   "background_color": "#000000",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "8 Stream",
-  "short_name": "8 Stream",
-  "description": "Watch Movies and TV Shows Online For Free",
+  "name": "RevFLIX",
+  "short_name": "RevFLIX",
+  "description": "RevFLIX - Watch Movies Online For Free!",
   "icons": [
     {
       "src": "/icon-192x192.png",
