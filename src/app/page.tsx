@@ -69,7 +69,7 @@ class Component1 extends React.Component {
     return (
         <div class="wrapper">
           <MetaTags>
-            <meta id="og-image" property="og:image" content="meta.jpg" />
+            <meta id="og-image" property="og:image" content="src/app/meta.jpg" />
           </MetaTags>
         </div>
       )
