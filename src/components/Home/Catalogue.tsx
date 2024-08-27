@@ -48,8 +48,8 @@ const Catalogue = ({
         })}
       </Slider>
 
-<center><p><b>REVFLIX</b> Developed By Revenger</p></center>
-
+<center><p><b>REVFLIX</b> Developed By <b>Revenger</b></p></center>
+<p> </p>
       {/* Discover TV */}
       {/* <Slider title="Discover TV">
         {data.DiscoverTv?.results?.map((tv: any) => {
