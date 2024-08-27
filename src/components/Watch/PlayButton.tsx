@@ -62,7 +62,7 @@ const PlayButton = ({
       setError(false);
       getConsumet();
     }
-  }, [provider]);
+  }, [provider ]);
 
   if (error) {
     return (
@@ -75,6 +75,11 @@ const PlayButton = ({
           Try another provider or try again later
         </p>
       </div>
+ <p className="text-[#6a0bf9] text-xl" >
+          <b>REVFLIX</b> Developed By <b>Revenger</b>
+        </p>
+
+<p> </p>
     );
   }
   return (
@@ -108,11 +113,7 @@ const PlayButton = ({
             />
           )}
         </button>
- <p className="text-[#6a0bf9] text-xl" >
-          <b>REVFLIX</b> Developed By <b>Revenger</b>
-        </p>
 
-<p> </p>
       </div>
     )
   );
