@@ -60,6 +60,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: "RevFlix - Watch Movies Online For Free",
     keywords: data.tendingMovies?.results?.map((item: any) => item?.title),
     category: "Entertainment",
+<meta property="og:image" content="</meta.jpg>" />
 
   };
 }
