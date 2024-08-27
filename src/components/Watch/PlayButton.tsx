@@ -108,8 +108,7 @@ const PlayButton = ({
             />
           )}
         </button>
- <p className="text-white text-xs font-medium flex justify-center items-center gap-1">
-          <IoIosInformationCircleOutline className="text-[#6a0bf9] text-xl" />
+ <p className="text-[#6a0bf9] text-xl" />
           <b>REVFLIX</b> Developed By <b>Revenger</b>
         </p>
 
